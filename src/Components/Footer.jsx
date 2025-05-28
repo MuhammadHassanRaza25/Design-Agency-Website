@@ -71,7 +71,7 @@ function Footer(){
               </div>
             </div>
 
-            <div className="flex items-center justify-between mt-7">
+            <div className="flex lg:gap-0 gap-5 lg:flex-row flex-col items-center justify-between mt-7">
               {/* Logo Text */}
               <div>
                 <h1 className="flex items-center gap-1 text-[#f3f3e4] lg:text-2xl md:text-lg text-lg font-bold">
@@ -80,7 +80,7 @@ function Footer(){
                 </h1>
               </div>
               <div>
-                <p className="interFont text-[#8e8e8e]">© 2025 Muhammad Hassan Raza. All rights reserved.</p>
+                <p className="interFont text-[#8e8e8e] lg:text-base md:text-sm text-xs">© 2025 Muhammad Hassan Raza. All rights reserved.</p>
               </div>
             </div>
           </div>
