@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* green: #c0f444 */
+/* white: #fffcf4 */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+html{
+  scroll-behavior: smooth;
+}
+.syneFont {
+  font-family: "Syne Variable", sans-serif;
+}
+.interFont {
+  font-family: "Inter Variable", sans-serif;
+}
+.Header {
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+.buttonShadow {
+  box-shadow: 0px 4px 0px #fffcf4;
+  transition: all 0.5s;
+}
+.buttonShadow:hover {
+  transition: all 0.5s;
+  box-shadow: none;
+}
+.cardBorder {
+  transition: all 0.5s;
+  box-shadow: none;
+}
+.cardBorder:hover {
+  box-shadow: 4px 3px 0px black;
+  background-color: #c0f444;
+  transition: all 0.5s;
+}
+.clientCardBorder {
+  transition: all 0.5s;
+  box-shadow: none;
+}
+.clientCardBorder:hover {
+  box-shadow: 4px 3px 0px black;
+  transition: all 0.5s;
+}
+.logoSpin {
+  animation: logo-spin 5s linear infinite;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.arrowAnim {
+  animation: slideLeftRight 2s ease-in-out infinite alternate;
+}
+@keyframes slideLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(30px);
+  }
+}
+.marquee-wrapper {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marquee-content {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  animation: marquee 25s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .arrowAnim {
+    display: none;
+  }
+}
