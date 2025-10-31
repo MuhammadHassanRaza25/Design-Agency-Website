@@ -4,8 +4,8 @@ import { Carousel } from "antd";
 function Projects() {
   return (
     <>
-      <div className="bg-black ">
-        <div id="projects" className="container border-b border-gray-200 pt-28 pb-28 lg:px-16 md:px-16 px-4">
+      <div className="bg-black">
+        <div id="projects" className="container pt-28 pb-28 lg:px-16 md:px-16 px-4">
           <h1 data-aos="fade-up" className="syneFont text-center text-[#fffcf4] lg:text-6xl md:text-6xl text-2xl font-bold">
             Have a wide range of
             <span className="flex items-baseline justify-center gap-3">
