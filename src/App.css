@@ -3,10 +3,10 @@
 /* green: #c0f444 */
 /* white: #fffcf4 */
 
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
-}
+} */
 html{
   scroll-behavior: smooth;
 }
@@ -15,6 +15,16 @@ html{
 }
 .interFont {
   font-family: "Inter Variable", sans-serif;
+}
+.containerHeader {
+  max-width: 1130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .Header {
   position: sticky;

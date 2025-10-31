@@ -20,7 +20,9 @@ function App() {
   return (
     <>
         <Header/>
-        <Hero/>
+        <div className="bg-black">
+          <Hero/>
+        </div>
         <Services/>
         <Projects/>
         <WorkProcess/>

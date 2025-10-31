@@ -8,7 +8,7 @@ import { IoMdCall } from "react-icons/io";
 function Hero(){
     return(
         <>
-          <div className="flex lg:gap-0 gap-14 lg:flex-row flex-col lg:items-start items-center justify-between lg:px-16 md:px-16 px-4 bg-black pt-16 pb-16">
+          <div className="container flex lg:gap-0 gap-14 lg:flex-row flex-col lg:items-start items-center justify-between lg:px-16 md:px-16 px-4 bg-black pt-16 pb-16">
             {/* Text Div */}
             <div className="lg:w-[550px] w-full">
                <h1 className="syneFont lg:text-start text-center text-[#f3f3e4] lg:text-7xl md:text-6xl text-4xl font-bold">
