@@ -6,6 +6,10 @@ import { HiArrowRight } from "react-icons/hi";
 import { TbWebhook } from "react-icons/tb";
 
 function Footer() {
+
+  let year = new Date()
+  let currentYear = year.getFullYear()
+
   return (
     <>
       <div className="bg-black">
@@ -81,7 +85,7 @@ function Footer() {
               </h1>
             </div>
             <div>
-              <p className="interFont text-[#8e8e8e] lg:text-base md:text-sm text-xs">© 2025 Muhammad Hassan Raza. All rights reserved.</p>
+              <p className="interFont text-[#8e8e8e] lg:text-base md:text-sm text-xs">© {currentYear} Muhammad Hassan Raza. All rights reserved.</p>
             </div>
           </div>
         </div>
